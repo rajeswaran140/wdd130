@@ -1,10 +1,10 @@
 aside {
-  width: 100%;
-  margin: 5px;
-  border: 4px;
-  padding: 5px;
-  background-color: skyblue;
-  color: black;
+  width: ;
+  margin: ;
+  border: ;
+  padding: ;
+  background-color: ;
+  color: ;
 }
 
 aside img {
@@ -12,6 +12,18 @@ aside img {
   height: auto;
 }
 
+main img {
+  width: 150px;
+  height: auto;
+}
+
 aside p {
   padding: 0;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid goldenrod;
+  text-align: center;
 }
