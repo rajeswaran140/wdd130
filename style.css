@@ -1,0 +1,17 @@
+aside {
+  width: 100%;
+  margin: 5px;
+  border: 4px;
+  padding: 5px;
+  background-color: skyblue;
+  color: black;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+aside p {
+  padding: 0;
+}
