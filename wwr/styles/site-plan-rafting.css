@@ -1,4 +1,13 @@
 * {
-  font-family: "Russo One", sans-serif;
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid goldenrod;
+  text-align: center;
 }
