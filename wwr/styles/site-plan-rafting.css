@@ -13,3 +13,15 @@ footer {
   border-top: 1px solid goldenrod;
   text-align: center;
 }
+
+:root {
+  /* Colors */
+  --primary-color: #009fb7;
+  --secondary-color: #598381;
+  --accent1-color: #a3abab;
+  --accent2-color: #166160;
+
+  /* Fonts */
+  --heading-font: "Roboto", sans-serif;
+  --body-font: "Open Sans", sans-serif;
+}
