@@ -37,7 +37,12 @@ footer {
 
 /* Class Selectors */
 
-.box {
+aside {
+  width: 20em;
+  text-align: center;
+}
+
+aside .box {
   margin: 1rem;
   border: 1px solid salmon;
   padding: 1rem;
@@ -45,9 +50,13 @@ footer {
   color: #f2f2f2;
 }
 
-aside {
-  width: 20em;
-  text-align: center;
+ul .box {
+}
+
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
 }
 
 main img {
