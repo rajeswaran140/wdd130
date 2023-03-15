@@ -61,4 +61,18 @@ aside h2 {
 
 main img {
   float: right;
+  margin-right: 60%;
+  background-color: skyblue;
+
+  border-radius: 8px;
+
+  padding: 5px;
+  width: 200px;
+  height: auto;
+  object-fit: fit;
+}
+
+main p {
+  margin: 15px;
+  text-align: left;
 }
