@@ -19,6 +19,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
 }
 
 ul {
@@ -90,6 +97,15 @@ body {
 
 .hero {
   position: relative;
+}
+
+h2 {
+  text-align: center;
+  color: var(--text-color);
+}
+
+p {
+  text-align: center;
 }
 
 .hero h1 {
@@ -173,7 +189,6 @@ body {
 }
 
 footer {
-  background-color: var(--background-color);
   padding: 20px;
   display: flex;
   justify-content: space-between;
