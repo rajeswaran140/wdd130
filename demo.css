@@ -1,11 +1,16 @@
-/* Set default font and background colors */
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: poppins, sans-serif;
   color: #333;
-  background-color: skyblue;
+  background-color: rgb(255, 255, 255);
+  filter: none;
 }
 
 .container {
@@ -52,14 +57,13 @@ body {
 
 /* Style the header */
 header {
-  background-color: skyblue;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   padding: 1rem;
 }
 
@@ -79,7 +83,7 @@ main {
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem;
-  background-color: skyblue;
+  background-color: rgb(245, 245, 245);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -98,9 +102,10 @@ h1 {
 img {
   display: block;
   margin: 0 auto;
-  padding: 4px;
+  padding: 6px;
   border: 3px solid #888;
   box-shadow: 2px 3px rgba(121, 121, 121, 0.1);
+  background-color: rgba(202, 202, 202);
   border-radius: 8px;
   float: right;
 }
@@ -110,17 +115,17 @@ p {
   margin-bottom: 1rem;
 }
 
-ul.temple-links {
+ul.box {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-ul.temple-links li {
+ul.box li {
   margin-bottom: 0.5rem;
 }
 
-ul.temple-links li a {
+ul.box li a {
   display: inline-block;
   padding: 0.5rem;
   background-color: #333;
@@ -129,7 +134,7 @@ ul.temple-links li a {
   text-decoration: none;
 }
 
-ul.temple-links li a:hover {
+ul.box li a:hover {
   background-color: #005ea3;
 }
 
@@ -138,8 +143,9 @@ aside {
   max-width: 400px;
   margin: 2rem auto;
   padding: 1rem;
-  background-color: skyblue;
+  background-color: rgba(202, 202, 202);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
 }
 
 h2 {
@@ -165,3 +171,5 @@ footer p {
   font-size: 0.8rem;
   color: #888;
 }
+
+/* Class Selectors */
