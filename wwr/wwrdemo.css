@@ -81,6 +81,8 @@ h1 {
   font-weight: bold;
   color: var(--primary-color);
   margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.348);
+  width: 100%;
 }
 
 h2 {
@@ -140,6 +142,8 @@ p {
   top: 10%;
   left: 10%;
   z-index: 1;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
 }
 
 .hero {
