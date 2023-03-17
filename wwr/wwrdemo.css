@@ -148,7 +148,6 @@ p {
   background-position: center;
   height: 100vh;
   border-radius: 10px;
-  box-shadow: 2px 2px 1px rgba(118, 118, 118, 0.7);
   padding: 14px;
 }
 
@@ -178,7 +177,6 @@ p {
   float: right;
   margin: auto;
   border-radius: 6px;
-  box-shadow: 2px 2px 1px rgba(118, 118, 118, 0.7);
 }
 
 .hero article {
@@ -187,7 +185,6 @@ p {
   left: 10%;
   right: 10%;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.7);
   padding: 1rem;
   opacity: 0.9;
 }
