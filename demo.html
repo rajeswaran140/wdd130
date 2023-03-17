@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Raj Thangarajah | WDD 130</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="demo.css" />
     <meta
       name="description"
       content="It is a pleasure to welcome you to Rajeswaran's home page at WDD130; I have enrolled in this course to acquire more knowledge about web development; so far, I have met many new friends and have been able to learn from each other's experiences."
@@ -14,20 +14,23 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#">Home</a>
-        <a href="wwr/">Water Rafting Website</a>
-        <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-        <a href="https://www.linkedin.com/in/rajwaran/"
-          >Visit my Linkedin Profile</a
-        >
-        <a href="">Visit my Facebook Profile</a>
-      </nav>
+      <div class="container">
+        <nav class="menu-bar">
+          <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="wwr/">Water Rafting</a></li>
+          <li></li><a href="wwr/site-plan-rafting.html">White Water Rafting site plan</a></li>
+          <li><a href="https://www.linkedin.com/in/rajwaran/"
+            >Visit my Linkedin Profile</a</li>
+          <li><a href="https://www.facebook.com/Adbee.ca">Visit my Facebook Page</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <h1>Rajeswaran Thangarajah | WDD 130</h1>
       <img
-        src="images/profle.jpg"
+        src="/images/profle.jpg"
         alt="This is my profile picture"
         width="200"
       />
@@ -44,7 +47,8 @@
       </p>
       <br />
 
-      <ul class="box">
+      <ul class="temple-links">
+        <h2>My Favorite Temples</h2>
         <li><a href="https://google.com" target="_blank">Temple-1</a></li>
         <li><a href="https://google.com" target="_blank">Temple-2</a></li>
         <li><a href="https://google.com" target="_blank">Temple-3</a></li>
@@ -58,7 +62,6 @@
         Its population is over 2.7 million, and it lies on the northwest shore
         of Lake Ontario. Toronto is a highly diverse and multicultural city,
         with more than 140 languages spoken and an extensive cultural scene
-        encompassing art, music, theatre, and food from around the world.
       </p>
     </aside>
     <footer>
