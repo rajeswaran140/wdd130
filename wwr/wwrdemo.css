@@ -200,16 +200,6 @@ p {
   justify-content: center;
 }
 
-.adventure img {
-  margin: 10px;
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-  box-shadow: 2px 2px 1px rgba(195, 195, 195, 0.7);
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 footer {
   padding: 20px;
   display: flex;
@@ -252,4 +242,5 @@ section {
   width: calc(25% - 10px);
   margin: 0 5px;
   height: auto;
+  border-radius: 6px;
 }
