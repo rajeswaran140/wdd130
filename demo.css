@@ -173,4 +173,10 @@ footer p {
   color: #888;
 }
 
-/*Test style*/
+/*Week 4 changes*/
+
+header,
+footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
