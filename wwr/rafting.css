@@ -247,7 +247,7 @@ section {
 figure {
   margin: 0;
   padding: 0;
-  flex: 1 0 20%;
+  flex: 1 0 15%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,5 +269,4 @@ figcaption {
 .image-row img {
   width: 100%;
   height: auto;
-  row-gap: 5px;
 }
