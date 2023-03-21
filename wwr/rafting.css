@@ -260,8 +260,14 @@ figcaption {
   font-style: italic;
 }
 
-img {
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-row img {
   width: 100%;
   height: auto;
-  object-fit: cover;
+  row-gap: 5px;
 }
