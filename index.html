@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Raj Thangarajah | WDD 130</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta
       name="description"
       content="It is a pleasure to welcome you to Rajeswaran's home page at WDD130; I have enrolled in this course to acquire more knowledge about web development; so far, I have met many new friends and have been able to learn from each other's experiences."
@@ -14,20 +15,29 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#">Home</a>
-        <a href="wwr/">Water Rafting Website</a>
-        <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-        <a href="https://www.linkedin.com/in/rajwaran/"
-          >Visit my Linkedin Profile</a
-        >
-        <a href="">Visit my Facebook Profile</a>
-      </nav>
+      <div class="container">
+        <nav class="menu-bar">
+          <ul class="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="wwr/">Water Rafting</a></li>
+          <li></li><a href="wwr/site-plan-rafting.html">White Water Rafting site plan</a></li>
+          <li><a href="https://www.linkedin.com/in/rajwaran/" target="_blank"
+            >Linkedin</a</li>
+          <li><a href="https://www.facebook.com/Adbee.ca" target="_blank">Facebook</a></li>
+
+
+
+
+          
+          </ul>
+        </nav>
+      </div>
     </header>
+    <div class="grid">
     <main>
       <h1>Rajeswaran Thangarajah | WDD 130</h1>
       <img
-        src="images/profle.jpg"
+        src="./images/profle.jpg"
         alt="This is my profile picture"
         width="200"
       />
@@ -45,9 +55,10 @@
       <br />
 
       <ul class="box">
-        <li><a href="https://google.com" target="_blank">Temple-1</a></li>
-        <li><a href="https://google.com" target="_blank">Temple-2</a></li>
-        <li><a href="https://google.com" target="_blank">Temple-3</a></li>
+        <h2>My Favorite Temples</h2>
+        <li><a href="https://www.churchofjesuschrist.org/temples/details/vernal-utah-temple?lang=eng" target="_blank">Vernal Utah Temple</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/temples/details/vancouver-british-columbia-temple?lang=eng" target="_blank">Vancouver British Columbia Temple</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/temples/details/sydney-australia-temple?lang=eng" target="_blank">Sydney Australia Temple</a></li>
       </ul>
     </main>
     <aside class="box">
@@ -58,9 +69,9 @@
         Its population is over 2.7 million, and it lies on the northwest shore
         of Lake Ontario. Toronto is a highly diverse and multicultural city,
         with more than 140 languages spoken and an extensive cultural scene
-        encompassing art, music, theatre, and food from around the world.
       </p>
     </aside>
+    </div>
     <footer>
       <p>&copy 2023 Rajeswaran 🌳 Toronto, Ontario 🌳 All rights reserved.</p>
     </footer>
