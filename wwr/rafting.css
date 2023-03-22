@@ -129,7 +129,7 @@ p {
   text-align: center;
 }
 
-.hero h2 {
+.hero h1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -155,7 +155,7 @@ p {
   padding: 14px;
 }
 
-.hero h2 {
+.hero h1 {
   position: absolute;
   top: auto;
   text-align: center;
