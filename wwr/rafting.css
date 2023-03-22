@@ -164,6 +164,8 @@ p {
   color: var(--h1-color);
   font-size: 30px;
   font-weight: bold;
+  background-color: #3333336c;
+  width: 100%;
 }
 
 .hero article {
