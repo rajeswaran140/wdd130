@@ -44,11 +44,10 @@ nav ul {
 }
 
 nav a {
+  display: block;
+  color: navy;
+  padding: 20px;
   text-decoration: none;
-  color: #333;
-  font-size: 16px;
-  font-weight: bold;
-  margin-left: 10px;
 }
 
 ul {
@@ -95,12 +94,7 @@ a:hover {
 /* Heading styles */
 h1 {
   font-size: 2rem;
-  font-family: Acme, Arial, Sans-serif;
-  font-weight: bold;
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.348);
-  width: 100%;
+  font-family: Acme, Arial, sans-serif;
 }
 
 h2 {
