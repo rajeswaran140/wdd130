@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1>Questions Form</h1>
-    <form action="">
+    <form action="process-form.php">
       <label for="q1">What does the acronym CSS stand for?</label>
       <input type="text" name="q1" id="q1" required />
 
@@ -28,13 +28,8 @@
       </select>
 
       <label for="q4">What is the bottom margin given this declaration?</label>
-      <input
-        type="number"
-        name="q4"
-        id="q4"
-        step="margin: 10px 5px 15px;"
-        required
-      />
+      <input type="number" name="q4" id="q4" step="0.5" required />
+      <span>ff</span>
       <button type="submit">Submit Quiz</button>
     </form>
   </body>
