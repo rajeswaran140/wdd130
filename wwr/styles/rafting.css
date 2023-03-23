@@ -9,12 +9,22 @@
   --h1-color: yellow;
 }
 
+/*
 header {
   padding: 25px;
   display: flex;
   align-items: center;
   width: 100%;
   max-width: none;
+} */
+
+header {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 120px 1fr 2fr;
+  align-items: center;
+
+  max-width: 1000px;
 }
 
 nav {
@@ -23,6 +33,7 @@ nav {
   gap: 20px;
   width: 100%;
   max-width: none;
+  text-align: right;
 }
 
 nav ul {
@@ -68,16 +79,23 @@ a:hover {
   margin-right: 50px;
 }
 
-.logo img {
+/*.logo img {
   height: 50px;
   width: auto;
   width: 100%;
+  height: auto;
+}*/
+
+.logo img {
+  margin: 0 0.25rem 0 1rem;
+  width: 64px;
   height: auto;
 }
 
 /* Heading styles */
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-family: Acme, Arial, Sans-serif;
   font-weight: bold;
   color: var(--primary-color);
   margin-bottom: 1rem;
