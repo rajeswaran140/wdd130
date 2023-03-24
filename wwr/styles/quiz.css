@@ -60,6 +60,7 @@ input[type="number"] {
 
 button {
   background-color: skyblue;
+  width: 100%;
   color: #333;
   border: none;
   border-radius: 5px;
