@@ -18,6 +18,23 @@
       async;
       defer;
     </script>
+    <!--Map Script -->
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          center: {
+            lat: 37.7749,
+            lang: -122.4194,
+          },
+        });
+
+        var maker = new google.maps.Marker({
+          position: { lat: 37.7749, lng: -122.4194 },
+          map: map,
+        });
+      }
+    </script>
   </head>
   <body>
     <header>
