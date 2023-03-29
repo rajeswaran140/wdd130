@@ -7,34 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Rafting with expert guides for thrilling rapids, scenic views and unforgettable memories. Contact Us!"
+      content="Rafting with expert guides for thrilling rapids, scenic views and unforgettable memories. Book now!"
     />
     <meta name="author" content="Rajeswaran Thangarajah" />
-    <link rel="stylesheet" href="styles/rafting.css" />
-
-    <script>
-      src =
-        "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY_HERE&callback=initMap";
-      async;
-      defer;
-    </script>
-    <!--Map Script -->
-    <script>
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 15,
-          center: {
-            lat: 37.7749,
-            lang: -122.4194,
-          },
-        });
-
-        var maker = new google.maps.Marker({
-          position: { lat: 37.7749, lng: -122.4194 },
-          map: map,
-        });
-      }
-    </script>
+    <link rel="stylesheet" href="styles/contact.css" />
   </head>
   <body>
     <header>
@@ -51,15 +27,43 @@
       </nav>
     </header>
     <main>
+      <div class="hero">
+        <h1>White Water Rafting</h1>
+        <article>
+          <img src="./images/happy-employee.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            tenetur earum, accusantium quisquam optio explicabo unde deserunt,
+            debitis dolor, ea maiores quod molestias sequi hic repellendus quo
+            temporibus.
+          </p>
+        </article>
+      </div>
       <section>
-        <h2>White Water Rafting</h2>
-        <p>123 Toronto Street</p>
-        <p>Ontario, M1C 3X4</p>
-        <p>Phone: (416) 123-4567</p>
-        <p>email: info@wwr.com</p>
-        <div id="map"></div>
-      </section>
+        <h2>History</h2>
+        <div class="content-wrapper">
+          <div class="content-1">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus,
+              unde exercitationem nisi quibusdam aperiam odio mollitia
+              aspernatur ducimus adipisci consequatur ipsam vel quod obcaecati
+              inventore alias laudantium sapiente iure praesentium.
+            </p>
+          </div>
+          <div class="history-image">
+            <img src="./images/family-adventure.jpg" alt="" />
+          </div>
 
+          <div class="content-2">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Recusandae alias odio, officia culpa neque labore facere maiores
+              esse, numquam nulla quibusdam. Quod rerum tempora quos ratione
+              ipsum suscipit, id corrupti!
+            </p>
+          </div>
+        </div>
+      </section>
       <section>
         <h2>Adventure Waits for you</h2>
         <div class="image-row">
@@ -87,6 +91,17 @@
             <img src="./images/Deluxe-adventure.jpg" alt="" />
             <figcaption>Deluxe - Two Days Adventure</figcaption>
           </figure>
+        </div>
+      </section>
+      <!-- Contact page-->
+      <section>
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+          <p><strong>Address:</strong> 123 Main St, Anytown USA</p>
+          <p><strong>Phone</strong>647-883-1925</p>
+          <p><strong>Email:</strong>info@whitewaterrafting.com</p>
+          <div class="map"></div>
+          <!--Embeded google map here-->
         </div>
       </section>
     </main>
