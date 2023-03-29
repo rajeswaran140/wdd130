@@ -466,11 +466,11 @@ a {
 
 #employee-profiles {
   display: flex;
-  flex-wrap: nowrap;
-
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   padding: 2rem;
-  overflow: auto;
+  flex-direction: inherit;
 }
 
 .employee {
