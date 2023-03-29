@@ -31,6 +31,46 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+
+      <!-- Employee Profile Images with Captions -->
+      <section id="employee-profiles">
+        <h2>Meet our Team</h2>
+        <div class="./images/employee1.jpg">
+          <img src="./images/employee1.jpg" alt="Employee 1" />
+          <h3>Antonio Tavares</h3>
+          <p>Chief Executive officer</p>
+        </div>
+        <div class="employee">
+          <img src="./images/employee2.jpg" alt="Employee 2" />
+          <h3>Renee Walter</h3>
+          <p>Chief Financial Officer</p>
+        </div>
+        <div class="employee">
+          <img src="./images/employee3.jpg" alt="Employee 3" />
+          <h3>Mark Brett</h3>
+          <p>Chief Operating Officer</p>
+        </div>
+      </section>
+
+      <!-- User Comment Form -->
+      <section id="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="POST">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </header>
     <main>
       <h1>Contact Us</h1>

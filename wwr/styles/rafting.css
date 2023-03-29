@@ -461,3 +461,37 @@ a {
 .btn-primary:hover {
   background-color: #333;
 }
+
+/* Employee */
+
+#employee-profiles {
+  display: flex;
+  flex-wrap: nowrap;
+
+  align-items: center;
+  padding: 2rem;
+  overflow: auto;
+}
+
+.employee {
+  margin: 1rem;
+  max-width: 300px;
+  text-align: center;
+}
+
+.employee img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.employee h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.employee p {
+  font-size: 1.2rem;
+  color: #777;
+}
