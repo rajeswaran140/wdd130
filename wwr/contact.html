@@ -33,101 +33,26 @@
       </nav>
     </header>
     <main>
-      <div class="hero">
-        <h1>White Water Rafting</h1>
-        <article>
-          <img src="./images/happy-employee.jpg" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            tenetur earum, accusantium quisquam optio explicabo unde deserunt,
-            debitis dolor, ea maiores quod molestias sequi hic repellendus quo
-            temporibus.
-          </p>
-        </article>
+      <h1>Contact Us</h1>
+      <h2>Send Us a Message</h2>
+      <p>White Water Rafting</p>
+      <p>Address: 1 Yonge St, Toronto, ON M5E 1W7</p>
+      <p>Phone:416-666-7777</p>
+      <p>Email: <a href="mailto">Raj</a></p>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.2518153932883!2d-79.37638024866582!3d43.64292896100978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb3a5b7cde15%3A0x2f1d3251ab80e275!2sOne%20Yonge%20Sky%20Tower!5e0!3m2!1sen!2sca!4v1680097738289!5m2!1sen!2sca"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
-      <section>
-        <h2>History</h2>
-        <div class="content-wrapper">
-          <div class="content-1">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus,
-              unde exercitationem nisi quibusdam aperiam odio mollitia
-              aspernatur ducimus adipisci consequatur ipsam vel quod obcaecati
-              inventore alias laudantium sapiente iure praesentium.
-            </p>
-          </div>
-          <div class="history-image">
-            <img src="./images/family-adventure.jpg" alt="" />
-          </div>
 
-          <div class="content-2">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae alias odio, officia culpa neque labore facere maiores
-              esse, numquam nulla quibusdam. Quod rerum tempora quos ratione
-              ipsum suscipit, id corrupti!
-            </p>
-          </div>
-        </div>
-      </section>
-      <section>
-        <h2>Adventure Waits for you</h2>
-        <div class="image-row">
-          <figure>
-            <img src="./images/Los-Dientes_Adventures.jpg" alt="" />
-            <figcaption>Los Dientes del Diablo</figcaption>
-          </figure>
-
-          <figure>
-            <img src="./images/big-mallard-adventure.jpg" alt="" />
-            <figcaption>Big Mallard</figcaption>
-          </figure>
-
-          <figure>
-            <img src="./images/HalfDay_Adventure.jpg" alt="" />
-            <figcaption>Half Day Adventure</figcaption>
-          </figure>
-
-          <figure>
-            <img src="./images/Fullday-adventure.jpg" alt="" />
-            <figcaption>Full Day Adventure</figcaption>
-          </figure>
-
-          <figure>
-            <img src="./images/Deluxe-adventure.jpg" alt="" />
-            <figcaption>Deluxe - Two Days Adventure</figcaption>
-          </figure>
-        </div>
-      </section>
-      <!-- Contact page-->
-      <section>
-      <div id="map"></div>
-	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-	<script>
-		function initMap() {
-			var map = new google.maps.Map(document.getElementById('map'), {
-				center: {lat: 37.7749, lng: -122.4194},
-				zoom: 13
-			});
-		}
-	</script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
-      
-                  
-                
-            <div class="col-md-6">
-              <p>
-                <i class="fa fa-map-marker"></i> 123 Main Street, New York, NY
-                10001
-              </p>
-              <p><i class="fa fa-phone"></i> +1 (555) 555-5555</p>
-              <p><i class="fa fa-envelope"></i> infowwr.com</p>
-            </div>
-          </div>
-        </div>
-      </section>
       <section id="contact">
-        <div class="container">
+        <div class="container form-container">
           <form action="submit-form.php" method="POST">
             <div class="form-group">
               <label for="name">Name</label>

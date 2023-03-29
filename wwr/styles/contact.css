@@ -304,64 +304,160 @@ figcaption {
 }
 
 /*Contact us*/
-/* Set font and padding for the form */
-#contact form {
-  font-family: Arial, sans-serif;
-  padding: 25px;
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
 }
 
-/* Style the form fields */
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+/* Paragraph text */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+/* Link style */
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+/* Style- Map */
+
+.map {
+  margin-top: 40px;
+  width: 100%;
+  height: 500px;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Center the map on a new location */
+.map iframe[src^="https://www.google.com/maps/embed"]
+{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 100%;
+}
+
+/* Style form */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+
 .form-group {
   margin-bottom: 20px;
+  width: 100%;
 }
 
-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
+.form-control {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-input[type="radio"] {
-  margin-right: 10px;
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Style the checkbox and its label */
-.form-check {
-  margin-bottom: 20px;
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
-.form-check-input {
-  margin-right: 10px;
+.form-group input[type="radio"] {
+  display: none;
 }
 
-.form-check-label {
-  font-weight: normal;
-}
-
-/* Style the submit button */
-button[type="submit"] {
+.form-group input[type="radio"] + label {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+  margin-right: 10px;
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
-  background-color: #333;
+.form-group input[type="radio"] + label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  vertical-align: middle;
 }
 
-.mapouter iframe {
+.form-group input[type="radio"]:checked + label:before {
+  background-color: #0077cc;
+  border-color: #0077cc;
+}
+
+.form-check-input {
+  display: none;
+}
+
+.form-check-input + label {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.form-check-input + label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  vertical-align: middle;
+}
+
+.form-check-input:checked + label:before {
+  background-color: #0077cc;
+  border-color: #0077cc;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 50px;
+  margin-top: 12px;
+  background-color: #0077cc;
   border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #005fa3;
 }
