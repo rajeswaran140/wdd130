@@ -307,7 +307,7 @@ figcaption {
 /* Set font and padding for the form */
 #contact form {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: 25px;
 }
 
 /* Style the form fields */
@@ -359,5 +359,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0069d9;
+  background-color: #333;
 }
