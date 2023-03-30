@@ -451,7 +451,7 @@ a {
   font-size: 18px;
   margin-bottom: 50px;
   margin-top: 12px;
-  background-color: #0077cc;
+  background-color: #0047ab;
   border: none;
   border-radius: 4px;
   color: #fff;
@@ -479,17 +479,35 @@ a {
   position: relative;
 }
 
-.employee {
+#employee {
   max-width: 30%;
   text-align: center;
 }
 
-.employee img {
+#employee img {
   width: 100%;
   height: auto;
 }
 
-.employee p {
+#employee p {
   background-color: aqua;
   text-align: center;
+}
+
+#employee-profiles figure {
+  position: relative;
+}
+
+#employee-profiles figcaption {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #eee;
+  color: #333;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
 }
