@@ -1,0 +1,216 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+:root {
+  --primary-color: #0047ab;
+  --secondary-color: #008000;
+  --text-color: #333333;
+  --background-color: #f5f5f5;
+  --h1-color: yellow;
+}
+
+/*
+header {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: none;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+nav {
+  display: flex;
+  list-style: none;
+  grid-column: 2 / span 1;
+  justify-self: end;
+  margin-top: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  color: navy;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+a {
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.logo {
+  grid-column: 1 / span 1;
+  justify-self: start;
+}
+
+/*.logo img {
+  height: 50px;
+  width: auto;
+  width: 100%;
+  height: auto;
+}*/
+
+.logo img {
+  margin: 0 0.25rem 0 1rem;
+  width: 64px;
+  height: auto;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: var(--text-color);
+}
+
+p {
+  text-align: center;
+}
+
+.hero {
+  background-image: url("");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+footer {
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+footer a {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+/* Target all paragraphs on the page */
+p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Target all headings with a class of "title" */
+h1.title,
+h2.title {
+  font-size: 28px;
+  color: #0088cc;
+  font-weight: bold;
+}
+
+/* Target all links */
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+/* Target all images with a class of "bordered" */
+img.bordered {
+  border: 1px solid #ccc;
+  box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Image */
+
+.hero {
+  background-image: url("/wwr/images/vince-adventure.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1,
+.hero h2 {
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  margin-top: 6px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  background-color: #01616e;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.hero button:hover {
+  background-color: #0097a7;
+}
