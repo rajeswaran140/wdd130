@@ -2,97 +2,100 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <title>White Water Rafting Co | About Us</title>
+    <title>White Water Rafting Co | Trips</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Rafting with expert guides for thrilling rapids, scenic views and unforgettable memories. Book now!"
+      content="Explore our amazing rafting trip options and find the perfect adventure for you."
     />
     <meta name="author" content="Rajeswaran Thangarajah" />
-    <link rel="stylesheet" href="styles/rafting.css" />
+    <link rel="stylesheet" href="./styles/trips.css" />
   </head>
   <body>
     <header>
       <div class="logo">
-        <a href="home.html"
-          ><img src="./images/Water-Rafting-Logo.jpeg" alt="logo"
-        /></a>
+        <img src="./images/Water-Rafting-Logo.jpeg" alt="logo" />
       </div>
       <nav>
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="trips.html">Trips</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="hero">
-        <h1>White Water Rafting</h1>
-        <article>
-          <img src="./images/happy-employee.jpg" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            tenetur earum, accusantium quisquam optio explicabo unde deserunt,
-            debitis dolor, ea maiores quod molestias sequi hic repellendus quo
-            temporibus.
-          </p>
-        </article>
+        <h1>Explore Our Exciting Rafting Trips</h1>
+        <h2>Find the perfect adventure for you</h2>
+        <button>Book Now</button>
       </div>
-      <section>
-        <h2>History</h2>
-        <div class="content-wrapper">
-          <div class="content-1">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus,
-              unde exercitationem nisi quibusdam aperiam odio mollitia
-              aspernatur ducimus adipisci consequatur ipsam vel quod obcaecati
-              inventore alias laudantium sapiente iure praesentium.
-            </p>
-          </div>
-          <div class="history-image">
-            <img src="./images/family-adventure.jpg" alt="" />
-          </div>
-
-          <div class="content-2">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Recusandae alias odio, officia culpa neque labore facere maiores
-              esse, numquam nulla quibusdam. Quod rerum tempora quos ratione
-              ipsum suscipit, id corrupti!
-            </p>
-          </div>
+      <section class="trips">
+        <h2>Our Trips</h2>
+        <div class="trip-item">
+          <img src="./images/Deluxe-adventure.jpg" alt="Trip 1" />
+          <h3>Family Adventure</h3>
+          <p>
+            A family-friendly rafting trip, perfect for beginners and those
+            looking for a more relaxed experience.
+          </p>
+          <button>Learn More</button>
+        </div>
+        <div class="trip-item">
+          <img src="./images/vince-adventure.jpg" alt="Trip 2" />
+          <h3>Intermediate Expedition</h3>
+          <p>
+            Navigate through Class III and IV rapids for an exhilarating
+            adventure suitable for intermediate rafters.
+          </p>
+          <button>Learn More</button>
+        </div>
+        <div class="trip-item">
+          <img src="./images/HalfDay_Adventure.jpg" alt="Trip 3" />
+          <h3>Extreme Challenge</h3>
+          <p>
+            Push your limits with our most challenging trip, featuring Class V
+            rapids and thrilling drops.
+          </p>
+          <button>Learn More</button>
         </div>
       </section>
-      <section>
-        <h2>Adventure Waits for you</h2>
-        <div class="image-row">
-          <figure>
-            <img src="./images/Los-Dientes_Adventures.jpg" alt="" />
-            <figcaption>Los Dientes del Diablo</figcaption>
-          </figure>
+      <!--Booking -->
+      <section class="booking">
+        <h2>Book Your Trip</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
 
-          <figure>
-            <img src="./images/big-mallard-adventure.jpg" alt="" />
-            <figcaption>Big Mallard</figcaption>
-          </figure>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
 
-          <figure>
-            <img src="./images/HalfDay_Adventure.jpg" alt="" />
-            <figcaption>Half Day Adventure</figcaption>
-          </figure>
+          <label for="trip">Select a Trip:</label>
+          <select id="trip" name="trip">
+            <option value="Family Adventure">Family Adventure</option>
+            <option value="Intermediate Expedition">
+              Intermediate Expedition
+            </option>
+            <option value="Extreme Challenge">Extreme Challenge</option>
+          </select>
 
-          <figure>
-            <img src="./images/Fullday-adventure.jpg" alt="" />
-            <figcaption>Full Day Adventure</figcaption>
-          </figure>
+          <label for="date">Select a Date:</label>
+          <input type="date" id="date" name="date" required />
 
-          <figure>
-            <img src="./images/Deluxe-adventure.jpg" alt="" />
-            <figcaption>Deluxe - Two Days Adventure</figcaption>
-          </figure>
-        </div>
+          <label for="participants">Number of Participants:</label>
+          <input
+            type="number"
+            id="participants"
+            name="participants"
+            min="1"
+            max="20"
+            required
+          />
+
+          <button type="submit">Book Now</button>
+        </form>
       </section>
     </main>
     <footer>
