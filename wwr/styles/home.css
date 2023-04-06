@@ -179,7 +179,8 @@ img.bordered {
 }
 
 .hero {
-  background-image: url("/wwr/images/SC1view.jpg");
+  background-image: url("/images/SC1view.jpg");
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
