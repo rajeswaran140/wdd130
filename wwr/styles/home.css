@@ -201,16 +201,16 @@ img.bordered {
 }
 
 .hero button {
-  background-color: #01616e;
+  background-color: #555555;
   color: white;
   padding: 1rem 2rem;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   font-size: 1.5rem;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
 }
 
 .hero button:hover {
-  background-color: #0097a7;
+  background-color: #008cba;
 }
