@@ -179,7 +179,7 @@ img.bordered {
 }
 
 .hero {
-  background-image: url("/wwr/images/family-scene.jpg");
+  background-image: url("../images/family-scene.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
