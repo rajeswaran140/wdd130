@@ -521,11 +521,6 @@ button {
   height: auto;
 }
 
-.trip-item img:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-}
-
 .booking {
   background-color: #cccc;
   padding: 20px;
