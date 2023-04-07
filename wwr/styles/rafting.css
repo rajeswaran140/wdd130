@@ -197,6 +197,18 @@ img.bordered {
 }
 
 /* Typography */
+
+/* Fix margin error */
+.my-class {
+  margin: 1px;
+}
+
+/* Fix padding error */
+.my-class {
+  padding: 0;
+}
+
+/* Other CSS rules */
 h1,
 h2,
 h3,
@@ -206,7 +218,6 @@ h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: var(--text-color);
-  padding: auto;
 }
 
 p,
