@@ -580,3 +580,48 @@ button {
 .booking button[type="submit"]:hover {
   background-color: #f44336;
 }
+
+/* Trips Table Summary */
+
+section h2 {
+  margin: 0 auto;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+section table thead th {
+  font-size: 18px;
+  color: #333;
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+section table tbody td {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+section table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+section table thead th {
+  font-size: 18px;
+  color: goldenrod;
+}
+
+section table tbody tr:nth-child(even) {
+  background-color: skyblue;
+}
