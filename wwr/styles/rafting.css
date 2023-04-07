@@ -252,7 +252,9 @@ a {
 
 /* Services Section */
 .services {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 2rem auto;
@@ -353,4 +355,50 @@ a {
   .testimonial {
     width: 90%;
   }
+}
+
+/* News letter */
+.newsletter {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  margin-bottom: 10px;
+}
+
+.newsletter form {
+  display: inline-block;
+}
+
+.newsletter label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.newsletter input[type="email"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #4caf50;
+  width: 200px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+  background-color: #3e8e41;
 }
