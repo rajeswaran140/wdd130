@@ -200,12 +200,7 @@ img.bordered {
 
 /* Fix margin error */
 .my-class {
-  margin: 1;
-}
-
-/* Fix padding error */
-.my-class {
-  padding: 0;
+  margin: 1px;
 }
 
 /* Other CSS rules */
