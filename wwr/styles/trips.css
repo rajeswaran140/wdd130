@@ -583,45 +583,55 @@ button {
 
 /* Trips Table Summary */
 
-section h2 {
-  margin: 0 auto;
-}
-section {
+.trip-table-list {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-section table {
+.trip-table-list h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.trip-table-list table {
   width: 80%;
   border-collapse: collapse;
   margin-top: 20px;
 }
 
-section table thead th {
+.trip-table-list table thead th {
   font-size: 18px;
   color: #333;
   background-color: #f2f2f2;
-  text-align: left;
+  text-align: center;
   padding: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
 }
 
-section table tbody td {
+.trip-table-list table tbody td {
   font-size: 16px;
   color: #333;
   padding: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  white-space: nowrap;
 }
 
-section table tbody tr:nth-child(even) {
+.trip-table-list table tbody tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
-section table thead th {
-  font-size: 18px;
-  color: goldenrod;
+.trip-table-list table tbody td:nth-child(2) {
+  width: 1%;
+  white-space: normal;
 }
 
-section table tbody tr:nth-child(even) {
-  background-color: skyblue;
+.trip-table-list table tbody tr {
+  background-color: #ffffff;
+}
+
+.trip-table-list table tbody tr:hover {
+  background-color: #cccc;
 }
