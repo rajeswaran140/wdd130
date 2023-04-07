@@ -252,9 +252,7 @@ a {
 
 /* Services Section */
 .services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 2rem auto;
@@ -357,7 +355,8 @@ a {
   }
 }
 
-/* News letter */
+/* news letter */
+
 .newsletter {
   background-color: #fff;
   padding: 20px;
@@ -381,9 +380,10 @@ a {
 .newsletter input[type="email"] {
   padding: 5px;
   border-radius: 5px;
-  border: 2px solid #4caf50;
+  border: none;
   width: 200px;
-  height: 24px;
+  height: 23px;
+  border: 2px solid #4caf50;
   margin-right: 5px;
 }
 
