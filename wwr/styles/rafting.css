@@ -10,7 +10,7 @@
 }
 
 * {
-  margin: 1;
+  margin: 1px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -197,11 +197,6 @@ img.bordered {
 }
 
 /* Typography */
-
-/* Fix margin error */
-.my-class {
-  margin: 1px;
-}
 
 /* Other CSS rules */
 h1,
