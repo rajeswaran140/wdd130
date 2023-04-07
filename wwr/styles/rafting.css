@@ -200,7 +200,7 @@ img.bordered {
 
 /* Fix margin error */
 .my-class {
-  margin: 1px;
+  margin: 1;
 }
 
 /* Fix padding error */
