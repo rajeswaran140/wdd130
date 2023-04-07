@@ -522,7 +522,7 @@ button {
 }
 
 .trip-item img:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   transition: all 0.3s ease-in-out;
 }
 
@@ -539,9 +539,8 @@ button {
 .booking form {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  align-items: left;
 }
 
 .booking form {
