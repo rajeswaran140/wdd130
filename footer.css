@@ -1,0 +1,29 @@
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  color: #ccc;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
